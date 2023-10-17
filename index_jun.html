@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>幸運之星請來電！超Lucky手機靈數</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="w3-content w3-black" style="max-width:1500px;" onload="getTime()">
+
+    <!-- Header with Slideshow -->
+    <header class="w3-display-container w3-center">
+        <!-- <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium"
+            onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i>
+            <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button> -->
+        <!-- slide1 -->
+        <div class="mySlides w3-animate-opacity">
+            <img class="w3-image" src="./w3images/app.jpg" alt="Image 1" width="1500" height="1000">
+            <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+                <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                    <h2><label for="phone-number" class="w3-xlarge" id="result1">Divine phone number web</label></h2>
+                    <input type="text" id="phone-number-1" maxlength="10" placeholder="0968168168">
+                    <hr class="w3-opacity">
+                    <input type="button" class="w3-button w3-block w3-green w3-round" id="analytics" value="占卜"
+                        onclick="analytics(1)">
+                    <p id="result-text-1">你身邊有數字的東西都會對你產生影響力
+                        <!-- Everything around you with numbers will have an effect on you -->
+                    </p>
+                </div>
+            </div>
+            <!-- phone-slide1 -->
+            <div class="w3-black  w3-hide-large w3-hide-medium">
+                <div class="w3-black w3-padding-large w3-round-large">
+                    <h2><label for="phone-number" class="w3-xlarge" id="result2">Divine phone number web</label></h2>
+                    <input type="text" id="phone-number-2" maxlength="10" placeholder="0968168168">
+                    <hr class="w3-opacity">
+                    <input type="button" class="w3-button w3-block w3-green w3-round" id="analytics" value="占卜"
+                        onclick="analytics(2)">
+                    <p id="result-text-2">你身邊有數字的東西都會對你產生影響力
+                        <!-- Everything around you with numbers will have an effect on you -->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- slide2 -->
+        <div class="mySlides w3-animate-opacity">
+            <img class="w3-image" src="./w3images/app2.jpg" alt="Image 2" width="1500" height="1000">
+            <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+                <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                    <h1><label for="phone-number" class="w3-xlarge w3-text-red" id="result3"><b>CLICK!</b> Fast and
+                            Easy</label></h1>
+                    <input type="text" id="phone-number-3" maxlength="10" placeholder="0968168168">
+                    <hr class="w3-opacity">
+                    <input type="button" class="w3-button w3-block w3-red w3-round" id="analytics" value="占卜"
+                        onclick="analytics(3)">
+                    <p id="result-text-3">從西洋靈數學選擇好的手機號碼
+                        <!-- Choose numbers from Numerology -->
+                    </p>
+
+                </div>
+            </div>
+            <!-- phone-slide2 -->
+            <div class="w3-black w3-hide-large w3-hide-medium">
+                <div class="w3-black w3-padding-large w3-round-large">
+                    <h1><label for="phone-number" class="w3-xlarge w3-text-red" id="result4"><b>CLICK!</b> Fast and
+                            Easy</label></h1>
+                    <input type="text" id="phone-number-4" maxlength="10" placeholder="0968168168">
+                    <hr class="w3-opacity">
+                    <input type="button" class="w3-button w3-block w3-red w3-round" id="analytics" value="占卜"
+                        onclick="analytics(4)">
+                    <p id="result-text-4">從西洋靈數學選擇好的手機號碼
+                        <!-- Choose numbers from Numerology -->
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!-- slide3 -->
+        <div class="mySlides w3-animate-opacity">
+            <img class="w3-image" src="./w3images/app4.jpg" alt="Image 3" width="1500" height="1000">
+            <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+                <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+                    <h1><label for="phone-number" class="w3-xlarge" id="result5">Smart Choice</label></h1>
+                    <input type="text" id="phone-number-5" maxlength="10" placeholder="0968168168">
+                    <hr class="w3-opacity">
+                    <input type="button" class="w3-button w3-block w3-indigo w3-round" id="analytics" value="占卜"
+                        onclick="analytics(5)">
+                    <p id="result-text-5">從西洋靈數學選擇好的手機號碼
+                        <!-- Choose numbers from Numerology -->
+                    </p>
+
+                </div>
+            </div>
+            <!-- phone-slide3 -->
+            <div class="w3-black  w3-hide-large w3-hide-medium">
+                <div class="w3-black w3-padding-large w3-round-large">
+                    <h1><label for="phone-number" class="w3-xlarge" id="result6">Smart Choice</label></h1>
+                    <input type="text" id="phone-number-6" maxlength="10" placeholder="0968168168">
+                    <hr class="w3-opacity">
+                    <input type="button" class="w3-button w3-block w3-indigo w3-round" id="analytics" value="占卜"
+                        onclick="analytics(6)">
+                    <p id="result-text-6">從西洋靈數學選擇好的手機號碼
+                        <!-- Choose numbers from Numerology -->
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <a class="w3-button w3-black w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey"
+            onclick="plusDivs(1)">Divine Again <i class="fa fa-angle-right"></i></a>
+        <a class="w3-button w3-block w3-black w3-border-white w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Divine
+            Again <i class="fa fa-angle-right"></i></a>
+    </header>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
+        <div id="date">
+
+        </div>
+        <div class="w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+        <p class="w3-medium">&copy;created by <a href="https://alexzalox.github.io/" target="_blank"
+                class="w3-hover-text-green">Alex Chen</a> __version__1.0</p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
